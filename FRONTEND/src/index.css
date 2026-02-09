@@ -1,0 +1,30 @@
+body {
+  background: #f6f7fb;
+}
+
+/* theme classes */
+body.dark {
+  background: #0b0f19;
+  color: white;
+}
+
+body.dark .card {
+  background: #121a2a;
+  color: white;
+}
+
+body.dark .navbar {
+  background: #0b0f19 !important;
+}
+
+body.dark .nav-link {
+  color: #ddd !important;
+}
+
+.card {
+  border: none !important;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+}
