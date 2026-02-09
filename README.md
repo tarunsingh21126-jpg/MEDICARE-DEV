@@ -1,6 +1,6 @@
 # 🩺 Doctor Appointment & Help — Full Stack Web App
 
-A full-stack doctor appointment booking web application where users can explore doctors, book appointments, manage their profile, and contact support/help. Built using **React + Tailwind CSS** for frontend and **Django + PostgreSQL** for backend.
+A full-stack doctor appointment booking web application where users can explore doctors, book appointments, manage their profile, and contact support/help. Built using **React + Tailwind CSS** for frontend and **Django + PostgreSQL** for backend.(STILL IN THE LEARNING  BUILDING PROCESS FRONTEND NEED TOUCH BACKEND NEEDS COMPLETELY WORK )
 
 ---
 
