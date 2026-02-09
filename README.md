@@ -1,21 +1,70 @@
-# Jarurat Care – Mini Healthcare Support Web App
+# 🩺 Doctor Appointment & Help — Full Stack Web App
 
-## Overview
-Jarurat Care is a concept-level healthcare support web app for NGOs. It allows patients to request help and volunteers to register.
+A full-stack doctor appointment booking web application where users can explore doctors, book appointments, manage their profile, and contact support/help. Built using **React + Tailwind CSS** for frontend and **Django + PostgreSQL** for backend.
 
-## Features
-- Patient Support Request Form
-- Volunteer Registration Form
-- AI/Automation Feature: FAQ Chatbot (rule-based)
-- Requests displayed in a simple dashboard
+---
 
-## Tech Stack
+## 🚀 Features
+
+### 👤 User Features
+- Register / Login (JWT Auth)
+- Browse doctors list
+- Search + filter doctors (specialty, location, fees, rating)
+- View doctor details page
+- Book appointment (date + time slot)
+- View upcoming & past appointments
+- Cancel appointment
+- Profile management
+
+### 🧑‍⚕️ Doctor Features (Optional)
+- Doctor dashboard
+- View appointment bookings
+- Manage availability / slots
+
+### 🆘 Help / Support
+- FAQ section
+- Contact support form
+- Submit issue/feedback
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
 - React + Vite
 - Tailwind CSS
-- LocalStorage (for storing form data)
+- React Router DOM
+- Axios
 
-## AI Idea
-A simple FAQ chatbot that answers common questions automatically using predefined responses.
+### Backend
+- Django
+- Django REST Framework (DRF)
+- PostgreSQL
+- JWT Authentication (SimpleJWT)
 
-## NGO Use Case
-Helps NGOs collect patient requests, manage volunteer registrations, and provide instant answers to common queries.
+---
+
+## 📂 Project Structure
+
+doctor-appointment-app/
+│
+├── client/ # React Frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── routes/
+│ │ ├── api/
+│ │ └── App.jsx
+│ └── package.json
+│
+├── server/ # Django Backend
+│ ├── config/ # settings.py, urls.py
+│ ├── apps/
+│ │ ├── accounts/ # auth + user profile
+│ │ ├── doctors/ # doctors + specialties
+│ │ ├── appointments/ # booking system
+│ │ └── support/ # help/contact
+│ ├── manage.py
+│ └── requirements.txt
+│
+└── README.md
